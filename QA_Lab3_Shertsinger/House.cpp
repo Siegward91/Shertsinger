@@ -6,7 +6,6 @@
 
 #include "House.h"
 #include <iostream>
- * \image html image.png "Иерархия классов"
 
 House::House(int number) : houseNumber(number) {}
 
