@@ -1,3 +1,9 @@
+/**
+ * @file House.cpp
+ * @brief Реализация класса House
+ * @author Я.А. Шерцингер
+ */
+
 #include "House.h"
 #include <iostream>
 
