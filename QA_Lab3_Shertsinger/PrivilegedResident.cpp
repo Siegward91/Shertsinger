@@ -1,3 +1,9 @@
+/**
+ * @file PrivilegedResident.cpp
+ * @brief Реализация класса льготного жильца
+ * @author Я.А. Шерцингер
+ */
+
 #include "PrivilegedResident.h"
 
 PrivilegedResident::PrivilegedResident(const std::string& name, 
@@ -10,6 +16,7 @@ std::string PrivilegedResident::getPrivilegeCategory() const {
 }
 
 bool PrivilegedResident::isAdult() const {
+    // Для льготников порог снижен до 16 лет
     return age >= 16 || !privilegeCategory.empty();
 }
 
