@@ -1,3 +1,9 @@
+/**
+ * @file Resident.cpp
+ * @brief Реализация базового класса жильца
+ * @author Я.А. Шерцингер
+ */
+
 #include "Resident.h"
 
 Resident::Resident() : fullName(""), age(0) {}
@@ -20,6 +26,7 @@ void Resident::setAge(int newAge) {
 }
 
 bool Resident::isAdult() const { 
+    // Формула: isAdult = (age >= 18)
     return age >= 18; 
 }
 
