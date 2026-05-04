@@ -21,6 +21,7 @@
  * поиск самого старшего, подсчёт несовершеннолетних.
  * 
  * \image html house_structure.png "Структура класса House"
+ * \image html image.png "Иерархия классов"
  */
 class House {
 private:
