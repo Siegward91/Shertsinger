@@ -38,7 +38,7 @@ public:
      * 
      * Совершеннолетие определяется по формуле:
      * 
-     * \f$ isAdult = (age \ge 18) \f$
+     * \f[ isAdult = (age \ge 18) \f]
      * 
      * @return true если возраст >= 18, иначе false
      */
