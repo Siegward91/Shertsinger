@@ -34,14 +34,15 @@ public:
     void setAge(int newAge);
 
     /**
-     * @brief Проверить, является ли жилец совершеннолетним
-     * 
-     * Совершеннолетие определяется по формуле:
-     * 
-     * \f[ isAdult = (age \ge 18) \f]
-     * 
-     * @return true если возраст >= 18, иначе false
-     */
+    * @brief Проверить, является ли жилец совершеннолетним
+    * 
+    * Совершеннолетие определяется по формуле:
+    * \f[
+    * \mathbf{isAdult = (age >= 18)}
+    * \f]
+    * 
+    * @return true если возраст >= 18, иначе false
+    */
     virtual bool isAdult() const;
 
     virtual std::string toString() const;
