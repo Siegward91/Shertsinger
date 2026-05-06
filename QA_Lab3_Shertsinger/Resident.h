@@ -38,13 +38,13 @@ public:
      * 
      * Совершеннолетие определяется по формуле:
      * 
-     * \f[
+     * \f$
      * isAdult = 
      * \begin{cases} 
      *     true,  & age \ge 18 \\ 
      *     false, & age < 18 
      * \end{cases}
-     * \f]
+     * \f$
      * 
      * @return true если возраст >= 18, иначе false
      */
